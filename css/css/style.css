@@ -1,4 +1,13 @@
-h1 {
-  background-image: url("../img/backgrounds/h_img.jpg");
+.malo {
+  background-image: url("../img/backgrounds/h_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-weight: normal!important;
   text-align: center;
+}
+.maco {
+  background-color: transparent;
+  text-align: center;
+  font-weight: normal!important;
 }

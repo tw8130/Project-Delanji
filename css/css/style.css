@@ -1,3 +1,4 @@
-#story {
-  display: none;
+h1 {
+  background-image: url("../img/backgrounds/h_img.jpg");
+  text-align: center;
 }

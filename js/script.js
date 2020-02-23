@@ -28,3 +28,56 @@ $(document).ready(function(){
       $("#product_icon").slideDown('1500');
     });
   });
+  $(document).ready(function(){
+    $("#bs").mouseover(function(){
+      $("#jilo").show();
+    }).mouseout(function(){
+      $("#jilo").hide();
+    });
+  });
+  $(document).ready(function(){
+    $("#os").mouseover(function(){
+      $("#jungle").show();
+    }).mouseout(function(){
+      $("#jungle").hide();
+    });
+  });
+  $(document).ready(function(){
+    $("#ps").mouseover(function(){
+      $("#jungo").show();
+    }).mouseout(function(){
+      $("#jungo").hide();
+    });
+  });
+  $(document).ready(function(){
+    $("#jm").mouseover(function(){
+      $("#jano").show();
+    }).mouseout(function(){
+      $("#jano").hide();
+    });
+  });
+  
+  $(document).ready(function(){
+    $("#hd").mouseover(function(){
+      $("#jambo").show();
+    }).mouseout(function(){
+      $("#jambo").hide();
+    });
+    $("#cr").mouseover(function(){
+        $("#jalo").show();
+      }).mouseout(function(){
+        $("#jalo").hide();
+      });
+      $("#bd").mouseover(function(){
+        $("#juno").show();
+      }).mouseout(function(){
+        $("#juno").hide();
+      });
+      $("#gr").mouseover(function(){
+        $("#jado").show();
+      }).mouseout(function(){
+        $("#jado").hide();
+      });
+    });
+
+    

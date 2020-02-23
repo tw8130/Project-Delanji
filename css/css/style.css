@@ -33,6 +33,10 @@
 }
 .biscuit {
   text-align: center;
+  background-image: url("///home/user/Documents/Delanji/css/css/img/backgrounds/c_img.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .headings {
   text-align: center;

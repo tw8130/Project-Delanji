@@ -1,5 +1,5 @@
 .malo {
-  background-image: url("../img/backgrounds/h_image.jpg");
+  background-image: url("h_img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -12,7 +12,7 @@
   font-weight: normal!important;
 }
 .later {
-  background-image: url("../img/backgrounds/s_image.jpg");
+  background-image: url("../img/backgrounds/s_img.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -29,5 +29,8 @@
   text-align: center;
 }
 .juice {
+  text-align: center;
+}
+.biscuit {
   text-align: center;
 }

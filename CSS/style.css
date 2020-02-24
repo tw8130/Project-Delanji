@@ -53,4 +53,17 @@
 .container {
   text-align: center;
 }
+.mac {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotateY(0deg);
+  color: rgb(0, 64, 255);
+  border:white solid 2px;
+}
+.col-sm-3:hover .mac {
+  transform: translate(-50%, -50%) rotateY(0deg);
+  opacity: 2;
+}
+
 

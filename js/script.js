@@ -31,7 +31,7 @@ $(document).ready(function(){
   $(document).ready(function(){
     $("#bs").mouseover(function(){
       $("#jilo").show();
-    }).mouseout(function(){
+    }).mouseleave(function(){
       $("#jilo").hide();
     });
   });
@@ -79,10 +79,42 @@ $(document).ready(function(){
         $("#jado").hide();
       });
     });
+
+    $(document).ready(function() {
+      $("form#form.g").submit(function(event) {
+        event.preventDefault();
+        var name = $("input#name1").val();
+        var email = $("input#email1").val();
+        var message = $("textarea#messo1").val();
+        if ($("input#name1").val() && $("input#email1").val()) {
+          alert (name + "received message, thankyou for reaching out to us.");
+        } else {
+          alert ("incorrect name and email!");
+        }
+      })
+    })
+
+
+
+
+
+
+
+
+
     
+// $(document).ready(function() {
+//   $("form#form.g").submit(function(event) {
+//     event.preventDefault();
+//     var name = $("input#name1").val();
+//     var email = $("input#email1").val();
+//     var messsage = $("textarea#messo1").val();
+//     if ($("input#name1").val() && $("input#email1").val()) {
+//       alert (name + "received message, thankyou for reaching out to us.");
+//     }
+//     else {
+//       alert("incorrect name and email!");
+//     }
+//   }
+// }
 
-
-    
-
-
-    

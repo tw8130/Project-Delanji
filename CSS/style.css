@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
 
 .malo {
-  background-image: url("img/backgrounds/h_img.jpg");
+  background-image: url("../img/h_img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  margin-left: 10%;
   font-weight: normal!important;
   text-align: center;
 }
@@ -14,7 +15,7 @@
   font-weight: normal!important;
 }
 .later {
-  background-image: url("/img/backgrounds/s_img.jpg");
+  background-image: url("../backgrounds/c_image.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -35,11 +36,14 @@
 }
 .biscuit {
   text-align: center;
-  background-image: url("///home/user/Documents/Delanji/css/css/img/backgrounds/c_img.jpg");
+  background-image: url("../backgrounds/s_image.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 .headings {
+  text-align: center;
+}
+.container {
   text-align: center;
 }

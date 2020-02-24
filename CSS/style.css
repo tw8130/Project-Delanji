@@ -4,8 +4,8 @@
   background-image: url("../img/h_img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   margin-left: 10%;
+  padding-top: 100px;
   font-weight: normal!important;
   text-align: center;
 }
@@ -41,9 +41,9 @@
   text-align: center;
   background-image: url("../backgrounds/c_image.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   margin-left: 10%;
+  padding-top: 100px;
 }
 .headings {
   text-align: center;

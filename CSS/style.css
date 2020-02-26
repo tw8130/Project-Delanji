@@ -47,7 +47,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin-left: 10%;
-  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .headings {
   text-align: center;
@@ -67,10 +67,9 @@
   transform: translate(-50%, -50%) rotateY(0deg);
   opacity: 1;
 }
-#form.g {
+.form-g {
   background-color:transparent;
-  border: white solid 2px;
-  opacity: 0.1;
+  opacity: 0.5;
 }
 .mouse-click {
   padding-top: 200px;
